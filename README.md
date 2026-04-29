@@ -6,6 +6,8 @@ A secure, multi-user dashboard platform where access to features, data, and UI e
 - **Auth:** JWT in an httpOnly cookie
 - **Authorization:** Module + action permissions, plus **field-level rules** (hidden + read-only) enforced on **both API and UI**
 - **Dashboard:** Drag-and-drop grid (`react-grid-layout`) with chart / table / stat widgets, saved per user
+- **Live demo:** [flodata-rbac-dashboard.vercel.app](https://flodata-rbac-dashboard.vercel.app)
+- **Walkthrough video:** [Watch on Google Drive](https://drive.google.com/file/d/1IpqC_W-yOKldO4nNVrB75hMlPFGPYpee/view?usp=sharing)
 
 ---
 
