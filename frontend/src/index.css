@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@import "react-grid-layout/css/styles.css";
+@import "react-resizable/css/styles.css";
+
+/* Pretty up the resize/drag interactions */
+.react-grid-item.react-grid-placeholder {
+  background: rgba(99, 102, 241, 0.25) !important;
+  border: 2px dashed rgb(129, 140, 248);
+  border-radius: 0.75rem;
+}
+
+.react-grid-item > .react-resizable-handle::after {
+  border-right-color: rgba(255, 255, 255, 0.4);
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Custom scrollbars on dark surfaces */
+.thin-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.thin-scroll::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 3px;
+}
+.thin-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6);
+}
